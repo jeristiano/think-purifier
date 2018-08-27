@@ -1,0 +1,33 @@
+{
+  "name": "jeristiano/thinkphp-purifier",
+  "description": "Thinkphp 5 HtmlPurifier Package",
+  "license": "Apache-2.0",
+  "minimum-stability": "dev",
+  "version": "1.0.1",
+  "authors": [
+    {
+      "name": "jeristiano",
+      "email": "jeremykuang@foxmail.com"
+    }
+  ],
+
+  "require": {
+    "php": ">=5.4.0",
+    "topthink/think-helper": ">=1.0.4",
+    "topthink/think-installer": ">=1.0.10",
+    "ezyang/htmlpurifier": "4.10.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "think\\": "src/"
+    },
+    "files": [
+      "src/common.php"
+    ]
+  },
+  "extra": {
+    "think-config": {
+      "purifier": "src/purifier.php"
+    }
+  }
+}
