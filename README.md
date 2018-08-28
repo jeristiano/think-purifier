@@ -1,4 +1,6 @@
 # think-purifier
+> 此package用来防止XSS攻击,是对HTMLPurifier的封装,是HTMLPurifier for Laravel 5
+的thinkphp5版本
 
 ### 安装(install)
 
