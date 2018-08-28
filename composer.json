@@ -2,6 +2,7 @@
   "name": "jeristiano/think-purifier",
   "description": "Thinkphp 5 HtmlPurifier Package",
   "license": "Apache-2.0",
+  "type":"think-extend",
   "authors": [
     {
       "name": "jeristiano",
