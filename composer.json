@@ -3,7 +3,6 @@
   "description": "Thinkphp 5 HtmlPurifier Package",
   "license": "Apache-2.0",
   "minimum-stability": "dev",
-  "version": "1.0.1",
   "authors": [
     {
       "name": "jeristiano",
@@ -27,7 +26,7 @@
   },
   "extra": {
     "think-config": {
-      "purifier": "src/purifier.php"
+      "purifier": "src/config.php"
     }
   }
 }
