@@ -2,7 +2,6 @@
   "name": "jeristiano/think-purifier",
   "description": "Thinkphp 5 HtmlPurifier Package",
   "license": "Apache-2.0",
-  "minimum-stability": "dev",
   "authors": [
     {
       "name": "jeristiano",
@@ -16,9 +15,10 @@
     "topthink/think-installer": ">=1.0.10",
     "ezyang/htmlpurifier": "4.10.*"
   },
+  
   "autoload": {
     "psr-4": {
-      "think\\": "src/"
+      "Jeristiano\\Purifier\\": "src/"
     },
     "files": [
       "src/common.php"
