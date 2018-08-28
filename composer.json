@@ -13,14 +13,13 @@
     "php": ">=5.4.0",
     "topthink/think-helper": ">=1.0.4",
     "topthink/think-installer": ">=1.0.10"
-    //"ezyang/htmlpurifier": "4.10.*"
-  },
+   },
 
   "autoload": {
     "psr-4": {
       "Jeristiano\\Purifier\\": "src/"
     },
-    
+
     "files": [
       "src/common.php"
     ]
