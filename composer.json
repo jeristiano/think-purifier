@@ -1,5 +1,5 @@
 {
-  "name": "jeristiano/thinkphp-purifier",
+  "name": "jeristiano/think-purifier",
   "description": "Thinkphp 5 HtmlPurifier Package",
   "license": "Apache-2.0",
   "minimum-stability": "dev",
