@@ -20,6 +20,7 @@
     "psr-4": {
       "Jeristiano\\Purifier\\": "src/"
     },
+    
     "files": [
       "src/common.php"
     ]
