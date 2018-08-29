@@ -25,6 +25,7 @@
       "src/common.php"
     ]
   },
+  
   "extra": {
     "think-config": {
       "purifier": "src/config.php"
