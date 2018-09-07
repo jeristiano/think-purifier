@@ -2,14 +2,14 @@
 ### XSS跨站脚本攻击
 > XSS是一种经常出现在web应用中的计算机安全漏洞，它允许恶意web用户将代码植入到提供给其它用户使用的页面中。比如这些代码包括HTML代码和客户端脚本。
 
-### 介绍
+### 介绍（Introduce）
 >think-purifierncomposer包对HTMLPurifier的封装,是HTMLPurifier for laravel的thinkphp5版本,作用是用来防止XSS跨站攻击，通过预定义配置，过滤危险的脚本内容达到预防XSS攻击的目的。
 
-### 安装(install)
+### 安装(Install)
 
 >composer require jeristiano/thinkphp-purifier
 
-### 配置
+### 配置 (Configuration)
 
 > 配置文件位于 application/extra/purifier.php
 
@@ -106,12 +106,12 @@ return [
 
 ```
 
-### 使用
+### 使用(Usage)
 
 此package是参照了HTMLPurifier for Laravel 5 ,地址 :https://github.com/mewebstudio/Purifier 详细的配置方法请参照此.
 
 
-### 推荐配置例子
+### 推荐配置例子 (Recommaded Configuration)
 
 ```php
 <?php
@@ -133,7 +133,7 @@ return [
 ];
 ```
 
-### 例子
+### 例子(Sample)
 
 > clean('This is my H1 title', 'user_topic_body'); //动态加载配置
 > clean('This is my H1 title', array('Attr.EnableID' => true));
